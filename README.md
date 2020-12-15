@@ -8,7 +8,7 @@ To detect the various states of motion - stand, fall, transition, and sit we use
 We obtained the Darknet model and pre-trained weights from the YOLOv3 model (Darknet YOLOv3) and re-trained it on the custom fall detection dataset. We further used Xilinx Quantizer and Xilinx Compiler to quantize the model, and generate the compiled executable files (.elf) that can be deployed on the Xilinx ZCU104 FPGA. 
 The software deployment flow from training to deploying it on the Xilinx ZCU104 FPGA is shown in the figure below
 
-
+![alt text](https://github.com/Jinin03/Automatic-Fall-Detection/blob/main/Images/flow_chain_IFECLgKfY0.webp)
 
 The folder board_file_zcu104_fall_256 contains the model files (.prototxt and .elf) that were deployed on the ZCU104 FPGA. 
 
