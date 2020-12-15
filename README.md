@@ -37,3 +37,13 @@ Therefore, we can deploy multiple cameras and integrate it with the automatic fa
 We modified the Vitis-AI APIs to read and process multiple camera inputssimultaneously. A demo video of the multi-camera fall detection can be found at https://youtu.be/6OXMEzDIHPA.
 
 ![alt text](https://github.com/Jinin03/Automatic-Fall-Detection/blob/main/Images/multi-camera.png)
+
+# References
+
+Darknet (https://github.com/AlexeyAB/darknet)
+LabelImg (https://github.com/tzutalin/labelImg)
+FAST2SMS (https://www.fast2sms.com/)
+Vitis-AI Tutorials (https://github.com/Xilinx/Vitis-AI-Tutorials)
+Vitis in depth tutorials (https://github.com/Xilinx/Vitis-In-Depth-Tutorial)
+Vitis Embedded Platform (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-platforms.html)
+ZCU104 Example Designs (https://github.com/Xilinx/Embedded-Reference-Platforms-User-Guide)
