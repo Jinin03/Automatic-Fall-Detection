@@ -30,7 +30,7 @@ Whenever a fall is detected, the "fall_detection_video" generates a "test_sms.tx
 
 In most old age homes, there are fewcaretakers and more elderly people to monitor them. A single person cannot monitor multiple cameras at the same time. The Xilinx ZCU104 FPGA is capable of processingmultiple camera feeds simultaneously at the edge.
 
-![alt test](https://github.com/Jinin03/Automatic-Fall-Detection/blob/main/Images/multi-camer-demo.png)
+![alt test](https://github.com/Jinin03/Automatic-Fall-Detection/blob/main/Images/multi-camera-demo.png)
 
 Therefore, we can deploy multiple cameras and integrate it with the automatic fall detection algorithm running on the standalone Xilinx ZCU104 FPGA. The algorithm will constantly monitor the video feeds simultaneously, detect whether a person is standing, falling, or sitting and send emergency SMS alerts whenever somebody falls down. Since we did not have multiple cameras, we tested the algorithms on multiplevideos stored on the SD card. 
 
