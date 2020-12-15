@@ -13,3 +13,14 @@ The software deployment flow from training to deploying it on the Xilinx ZCU104 
 The folder board_file_zcu104_fall_256 contains the model files (.prototxt and .elf) that were deployed on the ZCU104 FPGA. 
 
 
+# Live Fall Detection for Elderly Homes
+
+Once the algorithms was ready, we integrated the software and hardware together. We took input from a live USB camera and connected it to the Xilinx ZCU104 FPGA board. A block diagram representation of the same is given below. 
+
+
+
+The USB camera records video in the H.265 format, which is fed as input to the Video Codec Unit (VCU) in-built inside the ZU7EVFPGA. After the VCU processes the images, they are processed by the YOLOv3 fall detection algorithm using the Vitis AI APIs. If a fall is detected, an emergency alert SMS is sent to the relative. We used the FAST2SMS API to send messages to the emergency contact person. 
+
+
+
+Whenever a fall is detected, the "fall_detection_video" generates a "test_sms.txt" file. Another python code "sms_send.py" running in parallel constantly checks, if the file contains any output or not. If the file contains a line "Fall Detected", immediately an SMS alert is sent to a relative. 
