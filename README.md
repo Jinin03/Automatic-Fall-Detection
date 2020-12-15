@@ -41,9 +41,15 @@ We modified the Vitis-AI APIs to read and process multiple camera inputssimultan
 # References
 
 Darknet (https://github.com/AlexeyAB/darknet)
+
 LabelImg (https://github.com/tzutalin/labelImg)
+
 FAST2SMS (https://www.fast2sms.com/)
+
 Vitis-AI Tutorials (https://github.com/Xilinx/Vitis-AI-Tutorials)
+
 Vitis in depth tutorials (https://github.com/Xilinx/Vitis-In-Depth-Tutorial)
+
 Vitis Embedded Platform (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-platforms.html)
+
 ZCU104 Example Designs (https://github.com/Xilinx/Embedded-Reference-Platforms-User-Guide)
