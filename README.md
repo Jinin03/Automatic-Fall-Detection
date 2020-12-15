@@ -36,4 +36,4 @@ Therefore, we can deploy multiple cameras and integrate it with the automatic fa
 
 We modified the Vitis-AI APIs to read and process multiple camera inputssimultaneously. A demo video of the multi-camera fall detection can be found at https://youtu.be/6OXMEzDIHPA.
 
-![alt test](https://github.com/Jinin03/Automatic-Fall-Detection/blob/main/Images/multi-camera.png)
+![alt text](https://github.com/Jinin03/Automatic-Fall-Detection/blob/main/Images/multi-camera.png)
